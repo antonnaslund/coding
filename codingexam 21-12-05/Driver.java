@@ -1,4 +1,4 @@
-public class Driver {
+public class Driver  {
     private static int numberOfTests = 0;
     private static int passedTests = 0;
 
@@ -15,9 +15,7 @@ public class Driver {
     }
 
     private static void runSigmaTests() {
-        assert false : "Remove this line and uncomment the tests when you have implemented the Sigma class";
-        // TODO: Uncomment these tests and remove the line above
-        /*
+        
         Environment empty = new Environment();
         Environment env = new Environment();
         env.put("x", val(3));
@@ -86,7 +84,7 @@ public class Driver {
                                        var("y"));
         test(symbolicEnv, evaluateOnce, evaluatedOnce);
         test(symbolicEnv, evaluateOnce.eval(symbolicEnv), val(9));
-    */
+ 
     }
 
     private static void runBasicTests() {

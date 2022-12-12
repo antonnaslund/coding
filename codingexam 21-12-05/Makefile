@@ -1,5 +1,5 @@
 all:
-	javac *.java
+	javac *.java -Xdiags:verbose
 
 test: all
 	java -ea Driver
